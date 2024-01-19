@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Search App</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label for="search">Search Cafes:</label>
+        <input type="text" id="search" oninput="searchCafes()">
+    </div>
+
+    <table id="cafeTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Street No</th>
+                <th>Locality</th>
+                <th>Postal Code</th>
+                <th>Latitude</th>
+                <th>Longitude</th>
+            </tr>
+        </thead>
+        <tbody id="cafeList">
+            <!-- Cafe list will be displayed here -->
+        </tbody>
+    </table>
+
+    <script src="javascripts/quest.js">
+       
+    </script>
+</body>
+</html>
